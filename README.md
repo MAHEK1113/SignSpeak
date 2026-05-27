@@ -2,8 +2,6 @@
 Real-time ASL sign language to text translator built with MediaPipe Hands &amp; vanilla JS. Detects 21 hand landmarks in-browser, classifies gestures into letters with zero backend. Features live skeleton overlay, Web Speech API, particle mesh UI. No install — just open and sign.
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Syne&weight=700&size=42&pause=1000&color=7B8FFF&center=true&vCenter=true&width=600&lines=✋+SignSpeak;Sign+Language+→+Text;Real-time+%7C+AI-Powered;No+Backend+%7C+Just+Sign." alt="SignSpeak" />
-
 <br/>
 
 **Real-time ASL alphabet detection in the browser — powered by MediaPipe Hands & vanilla JS.**  
@@ -11,7 +9,7 @@ Zero backend. Zero install. Just your hand and a webcam.
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-7B8FFF?style=for-the-badge&logoColor=white)](https://your-demo-link.vercel.app)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-7B8FFF?style=for-the-badge&logoColor=white)](https://sign-speak-orpin.vercel.app/)
 [![MediaPipe](https://img.shields.io/badge/MediaPipe_Hands-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/mediapipe)
 [![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22D3A4?style=for-the-badge)](LICENSE)
@@ -34,16 +32,11 @@ Your Hand  →  Webcam  →  MediaPipe (21 landmarks)  →  Classifier  →  Tex
 
 ---
 
-## 🎬 Demo
+## 🎬 How to operate
 
 <div align="center">
 
-<!-- Replace with your actual GIF/screenshot -->
-```
-📸  Add a demo GIF here after recording your screen
-    Tool: ScreenToGif (Windows) or Kap (Mac)
-    Show: hand signing → letter appearing → text building up
-```
+
 
 | Start Camera | Sign a Letter | Text Output |
 |:---:|:---:|:---:|
@@ -103,7 +96,12 @@ Your Hand  →  Webcam  →  MediaPipe (21 landmarks)  →  Classifier  →  Tex
 
 ## 🚀 Quick Start
 
-### Option 1 — Single File (Easiest)
+### Option 1 — Direct Link
+```bash
+# 1. Paste this link directly to your browser(https://sign-speak-orpin.vercel.app)
+```
+
+### Option 2 — Single File (Easiest)
 ```bash
 # 1. Download SignSpeak.html
 # 2. Open VS Code → install "Live Server" extension
@@ -111,9 +109,9 @@ Your Hand  →  Webcam  →  MediaPipe (21 landmarks)  →  Classifier  →  Tex
 # 4. Allow camera → Start signing!
 ```
 
-### Option 2 — Clone & Serve
+### Option 3 — Clone & Serve
 ```bash
-git clone https://github.com/yourusername/signspeak.git
+git clone https://github.com/MAHEK1113/signspeak.git
 cd signspeak
 
 # Python
@@ -206,11 +204,7 @@ signspeak/
 
 Contributions are welcome! The best place to start is `js/classifier.js` — each letter rule is just 3–5 lines.
 
-```bash
-git clone https://github.com/yourusername/signspeak.git
-# Add your letter rule in classifier.js
-# Submit a PR!
-```
+
 
 ---
 
